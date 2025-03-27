@@ -2,8 +2,9 @@
   "name": "tactics-board",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gljubojevic.github.io/tactics-board",
+  "homepage": "/",
   "dependencies": {
+    "@craco/craco": "^7.1.0",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.5.1",
@@ -15,6 +16,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "browser-filesaver": "^1.1.1",
+    "buffer": "^6.0.3",
     "firebase": "^9.6.7",
     "gh-pages": "^3.2.3",
     "mdi-material-ui": "^7.2.0",
