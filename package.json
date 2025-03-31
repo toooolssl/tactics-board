@@ -2,7 +2,7 @@
   "name": "tactics-board",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "/tactics-board/build/",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@emotion/react": "^11.8.2",

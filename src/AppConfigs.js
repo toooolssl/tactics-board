@@ -9,8 +9,8 @@ const AppConfigs = {
     coatchingfutsal: {
         useFirebase: false,
         siteHomeURL: '/',
-        siteLogoURL: '/img/logo-toools.png',       // Nueva ruta relativa a public/
-        pitchCenterADURL: '/img/isquad-blanco-completo.png', // Nueva ruta relativa a public/
+        siteLogoURL: process.env.PUBLIC_URL + '/img/logo-toools.png',       // Nueva ruta relativa a public/
+        pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-completo.png', // Nueva ruta relativa a public/
         signInURL: '/Account/LoginRegister',
         signOutURL: '/Account/LogOff',
         getUserURL: '/Account/GetUser',
