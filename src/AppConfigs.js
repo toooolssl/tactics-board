@@ -1,6 +1,6 @@
 const AppConfigs = {
     default: {
-        useFirebase: true,
+        useFirebase: false,
         siteHomeURL: null,
         siteLogoURL: null,
         pitchCenterADURL: null,
