@@ -20,6 +20,7 @@ const AppConfigs = {
         listURL: '/TacticsBoard/GetTacticsList',
         deleteURL: '/TacticsBoard/DeleteTactic',
         thumbnailWidth: 1280,   // height calculated from proportions
+        ballHref: process.env.PUBLIC_URL + '/elements/ball.svg',
     }
 }
 

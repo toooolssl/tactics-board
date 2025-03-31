@@ -65,6 +65,7 @@ class PitchEdit extends Component {
 		this._playerDialogRef = React.createRef();	// edit player dialog reference
 		this._contextMenuRef = React.createRef();	// context menu reference
 		this._pitch = this.props.pitch;
+		this._appConfig = this.props.appConfig;
 
 		// mouse drag init
 		this._dragNode = null;
@@ -370,13 +371,14 @@ class PitchEdit extends Component {
 	}
 
 	renderBalls(balls, isEdit, isPrevFrame) {
+		console.log("renderBalls", balls, isEdit, isPrevFrame);
 		if (null === balls) {
 			return null;
 		}
 		const keyPrefix = isEdit ? "ed" : "";
 		return balls.map((b, index) => {
 			return (
-				<BallEdit key={keyPrefix + index.toString()} ball={b} isEdit={isEdit} isPrevFrame={isPrevFrame} />
+				<BallEdit key={keyPrefix + index.toString()} ball={b} isEdit={isEdit} isPrevFrame={isPrevFrame} imgHref={this._appConfig.ballHref} />
 			);
 		});
 	}
@@ -630,13 +632,15 @@ class PitchEdit extends Component {
 PitchEdit.defaultProps = {
 	pitch: null,
 	drawMode: null,
-	centerADURL: null
+	centerADURL: null,
+	appConfig: null
 }
 
 PitchEdit.propTypes = {
 	pitch: PropTypes.instanceOf(PitchFutsal),
 	drawMode: PropTypes.instanceOf(DrawMode),
-	centerADURL: PropTypes.string
+	centerADURL: PropTypes.string,
+	appConfig: PropTypes.object
 }
 
 export default withStyles(styles, { withTheme: true })(PitchEdit);
