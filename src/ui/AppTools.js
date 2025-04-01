@@ -68,7 +68,7 @@ class AppTools extends Component {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant="h6" color="inherit">iSquad tactics board</Typography>
-					{this.renderSiteHome()}
+					{/* {this.renderSiteHome()} */}
 					{this.renderAnimControls()}
 					<div className={this.props.classes.grow} />
 					<DrawMenu drawMode={this.props.drawMode} extrasCreate={this.props.extrasCreate} />

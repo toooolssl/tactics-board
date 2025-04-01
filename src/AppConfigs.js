@@ -5,13 +5,14 @@ const AppConfigs = {
       siteHomeURL: null,
       siteLogoURL: process.env.PUBLIC_URL + '/img/logo-toools.png',
       pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-completo.png',
+      fieldUrl: process.env.PUBLIC_URL + '/img/field_default.svg',
       thumbnailWidth: 320, // height calculated from proportions
     },
     balonmano: {
       useFirebase: false,
       siteHomeURL: '/',
       siteLogoURL: process.env.PUBLIC_URL + '/img/logo-toools.png',
-      pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-completo.png',
+      pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-complete.png',
       signInURL: '/Account/LoginRegister',
       signOutURL: '/Account/LogOff',
       getUserURL: '/Account/GetUser',
@@ -21,13 +22,15 @@ const AppConfigs = {
       listURL: '/TacticsBoard/GetTacticsList',
       deleteURL: '/TacticsBoard/DeleteTactic',
       thumbnailWidth: 1280,
-      ballHref: process.env.PUBLIC_URL + '/elements/handball_ball.svg', // SVG específico para balonmano
+      ballHref: process.env.PUBLIC_URL + '/elements/handball_ball.svg',
+      fieldUrl: process.env.PUBLIC_URL + '/elements/handball_field.svg',
+      goals: true
     },
     rugby: {
       useFirebase: false,
       siteHomeURL: '/',
       siteLogoURL: process.env.PUBLIC_URL + '/img/logo-toools.png',
-      pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-completo.png',
+      pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-complete.png',
       signInURL: '/Account/LoginRegister',
       signOutURL: '/Account/LogOff',
       getUserURL: '/Account/GetUser',
@@ -37,13 +40,15 @@ const AppConfigs = {
       listURL: '/TacticsBoard/GetTacticsList',
       deleteURL: '/TacticsBoard/DeleteTactic',
       thumbnailWidth: 1280,
-      ballHref: process.env.PUBLIC_URL + '/elements/rugby_ball.svg', // SVG específico para rugby
+      ballHref: process.env.PUBLIC_URL + '/elements/rugby_ball.svg',
+      fieldUrl: process.env.PUBLIC_URL + '/elements/rugby_field.svg',
+      goals: false
     },
     hockey: {
       useFirebase: false,
       siteHomeURL: '/',
       siteLogoURL: process.env.PUBLIC_URL + '/img/logo-toools.png',
-      pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-completo.png',
+      pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-complete.png',
       signInURL: '/Account/LoginRegister',
       signOutURL: '/Account/LogOff',
       getUserURL: '/Account/GetUser',
@@ -53,7 +58,9 @@ const AppConfigs = {
       listURL: '/TacticsBoard/GetTacticsList',
       deleteURL: '/TacticsBoard/DeleteTactic',
       thumbnailWidth: 1280,
-      ballHref: process.env.PUBLIC_URL + '/elements/hockey_disk.svg', // SVG específico para hockey
+      ballHref: process.env.PUBLIC_URL + '/elements/hockey_disk.svg',
+      fieldUrl: process.env.PUBLIC_URL + '/elements/hockey_field.svg',
+      goals: true
     },
   };
   

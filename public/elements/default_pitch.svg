@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4000" height="2000" viewBox="0 0 4000 2000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definiciones: patrón para la red de portería (goal-net) -->
+  <defs>
+    <pattern id="goal-net" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" stroke="black">
+      <line x1="0" y1="0" x2="20" y2="20" />
+      <line x1="20" y1="0" x2="0" y2="20" />
+    </pattern>
+  </defs>
+
+  <!-- Grupo principal del campo -->
+  <g fill="#0280c6" stroke="white" stroke-width="8">
+    <!-- Fondo del campo -->
+    <rect width="4000" height="2000"/>
+
+    <!-- Línea central -->
+    <line x1="2000" y1="0" x2="2000" y2="2000"/>
+
+    <!-- Círculo central -->
+    <circle cx="2000" cy="1000" r="300" fill="none"/>
+
+    <!-- Punto central -->
+    <circle cx="2000" cy="1000" r="12" fill="white" stroke-width="0"/>
+
+    <!-- Marcas de esquina -->
+    <g id="corner_marks">
+      <path fill="none" d="M25,0 a25,25 0 0,1 -25,25"/>
+      <path fill="none" d="M4000,25 a25,25 0 0,1 -25,-25"/>
+      <path fill="none" d="M0,1975 a25,25 0 0,1 25,25"/>
+      <path fill="none" d="M3975,2000 a25,25 0 0,1 25,-25"/>
+    </g>
+
+						<g id="substitution-zones-up">
+							<line x1="1000" x2="1000" y1="-48" y2="32" />
+							<line x1="1500" x2="1500" y1="-48" y2="32" />
+							<line x1="2500" x2="2500" y1="-48" y2="32" />
+							<line x1="3000" x2="3000" y1="-48" y2="32" />
+						</g>
+    <!-- Zonas de sustitución en la parte inferior -->
+    <g id="substitution-zones-down">
+      <line x1="1000" y1="1968" x2="1000" y2="2048"/>
+      <line x1="1500" y1="1968" x2="1500" y2="2048"/>
+      <line x1="2500" y1="1968" x2="2500" y2="2048"/>
+      <line x1="3000" y1="1968" x2="3000" y2="2048"/>
+    </g>
+
+    <!-- Lado izquierdo: líneas, área y arcos -->
+    <g id="left">
+      <line x1="500" y1="980" x2="500" y2="1020"/>
+      <line x1="600" y1="842" x2="600" y2="1158"/>
+      <circle cx="600" cy="1000" r="12" fill="white" stroke-width="0"/>
+      <path fill="none" d="M0,242 a600,600 0 0,1 600,600"/>
+      <path fill="none" d="M600,1158 a600,600 0 0,1 -600,600"/>
+      <line x1="-20" y1="500" x2="-60" y2="500"/>
+      <line x1="-20" y1="1500" x2="-60" y2="1500"/>
+    </g>
+
+    <!-- Penalti izquierdo -->
+    <g id="left-penalty" fill="white" stroke-width="0">
+      <rect x="992" y="492" width="16" height="16"/>
+      <circle cx="1000" cy="1000" r="12"/>
+      <rect x="992" y="1492" width="16" height="16"/>
+    </g>
+
+    <!-- Lado derecho: líneas, área y arcos -->
+    <g id="right">
+      <line x1="3500" y1="980" x2="3500" y2="1020"/>
+      <line x1="3400" y1="842" x2="3400" y2="1158"/>
+      <circle cx="3400" cy="1000" r="12" fill="white" stroke-width="0"/>
+      <path fill="none" d="M3400,842 a600,600 0 0,1 600,-600"/>
+      <path fill="none" d="M3400,1158 a600,600 0 0,0 600,600"/>
+      <line x1="4020" y1="500" x2="4060" y2="500"/>
+      <line x1="4020" y1="1500" x2="4060" y2="1500"/>
+    </g>
+
+    <!-- Penalti derecho -->
+    <g id="right-penalty" fill="white" stroke-width="0">
+      <rect x="2992" y="492" width="16" height="16"/>
+      <circle cx="3000" cy="1000" r="12"/>
+      <rect x="2992" y="1492" width="16" height="16"/>
+    </g>
+  </g>
+</svg>
