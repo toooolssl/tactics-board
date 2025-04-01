@@ -378,7 +378,7 @@ class PitchEdit extends Component {
 		const keyPrefix = isEdit ? "ed" : "";
 		return balls.map((b, index) => {
 			return (
-				<BallEdit key={keyPrefix + index.toString()} ball={b} isEdit={isEdit} isPrevFrame={isPrevFrame} imgHref={this._appConfig.ballHref} />
+				<BallEdit key={keyPrefix + index.toString()} ball={b} isEdit={isEdit} isPrevFrame={isPrevFrame} ballHref={this._appConfig.ballHref} />
 			);
 		});
 	}

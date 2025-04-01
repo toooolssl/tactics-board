@@ -13,7 +13,7 @@ import LinkIcon from '@mui/icons-material/Link';
 import DrawMenu from './DrawMenu';
 import FullscreenToggle from './FullscreenToggle';
 import AnimControls from './AnimControls';
-import UserAccount from './UserAccount';
+// import UserAccount from './UserAccount';
 import HelpCenterIcon from '@mui/icons-material/HelpCenter';
 import AppUser from '../AppUser';
 
