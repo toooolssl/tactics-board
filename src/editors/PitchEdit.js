@@ -618,7 +618,6 @@ class PitchEdit extends Component {
 
             {/* Grupo del campo: mostramos la imagen que provenga de la configuración o la imagen de defecto */}
             <g id="pitch" transform={pitchTransform}>
-				{this.renderCenterAD(1700, 700, 600, 600)}
               <image
                 x="0"
                 y="0"
@@ -630,6 +629,7 @@ class PitchEdit extends Component {
                     : process.env.PUBLIC_URL + "/elements/default_field.svg"
                 }
               />
+			  {this.renderCenterAD(1700, 700, 600, 600)}
             </g>
 
             {/* Capas adicionales (overlay, elementos adicionales, jugadores, balones, etc.) */}
