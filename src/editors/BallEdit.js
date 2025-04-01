@@ -40,13 +40,10 @@ class BallEdit extends Component {
       return (
         <g className={className} transform={transform}>
           {this.ballImage()}
-          {/* Círculo invisible que actúa como "hit area"
-              Se usa fill con valor 'rgba(0,0,0,0)' para que sea absolutamente transparente,
-              y style pointerEvents "all" para que capture los clics.
-              Al estar declarado después, se posiciona por encima del SVG. */}
           <circle
             r="30"
-            fill="rgba(0,0,0,0)"
+            fill="transparent"
+			stroke="none"
             style={{ pointerEvents: 'all' }}
             className={editClassName}
             data-ref={editID}
@@ -55,8 +52,6 @@ class BallEdit extends Component {
       );
     }
 
-    // Para los otros balones, se renderiza el círculo original (sin fill explícito,
-    // de modo que el color se defina mediante las clases CSS, tal como lo manejabas).
     return (
       <g className={className} transform={transform}>
         <circle
@@ -66,6 +61,7 @@ class BallEdit extends Component {
           strokeOpacity="0.5"
           data-ref={editID}
         />
+		
       </g>
     );
   }

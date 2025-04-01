@@ -27,8 +27,9 @@ import SignInDialog from './ui/SignInDialog';
 class App extends Component {
 	constructor(props) {
 		super(props);
+		const deporte = (window.APP_CONFIG && window.APP_CONFIG.deporte) || 'default';
 		//this.config = AppConfigs.default;
-		this.config = AppConfigs.coatchingfutsal;
+		this.config = AppConfigs[deporte] || AppConfigs.default;
 		// application Material-UI theme
 		this.appTheme = createTheme();
 		// references
