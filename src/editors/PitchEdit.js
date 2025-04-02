@@ -380,7 +380,6 @@ class PitchEdit extends Component {
   }
 
   renderBalls(balls, isEdit, isPrevFrame) {
-    console.log("renderBalls", balls, isEdit, isPrevFrame);
     if (null === balls) {
       return null;
     }
