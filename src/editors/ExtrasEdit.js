@@ -37,15 +37,14 @@ class ExtrasEdit extends Component {
 
 	render() {
 		const ex = this.props.extras;
-		const transform = 'rotate('+ ex.rotation + ',' + ex.x + ',' + ex.y + ')';
-		console.log('this.props', this.props);
+		const transform = `rotate(${ex.rotation}, ${ex.x}, ${ex.y})`;
 		return (
-			<g transform={transform}>
-				{ (this.props.appConfig && this.props.appConfig.goals) ? this.renderGfx(ex) : null }
-				{this.editBox(ex.isEdit, ex.box, ex.isBoxVisible, ex.isResizable, ex.isRotatable)}
-			</g>
+		  <g transform={transform}>
+			{ (this.props.appConfig && this.props.appConfig.goals) ? this.renderGfx(ex) : null }
+			{ this.editBox(ex.isEdit, ex.box, ex.isBoxVisible, ex.isResizable, ex.isRotatable) }
+		  </g>
 		);
-	}
+	}	  
 }
 
 ExtrasEdit.defaultProps = {

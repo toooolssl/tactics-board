@@ -444,10 +444,17 @@ class PitchEdit extends Component {
   }
 
   renderExtras(extras) {
-    return extras.map((ex, index) => {
-      return <ExtrasEdit key={index.toString()} extras={ex} />;
-    });
+	return extras.map((ex, index) => {
+	  return (
+		<ExtrasEdit
+		  key={index.toString()}
+		  extras={ex}
+		  appConfig={this.props.appConfig}
+		/>
+	  );
+	});
   }
+  
 
   renderPitchOverlay() {
     const o = this.props.pitch.overlaySize();

@@ -60,7 +60,7 @@ const AppConfigs = {
       thumbnailWidth: 1280,
       ballHref: process.env.PUBLIC_URL + '/elements/hockey_disk.svg',
       fieldUrl: process.env.PUBLIC_URL + '/elements/hockey_field.svg',
-      goals: true
+      goals: false
     },
   };
   
