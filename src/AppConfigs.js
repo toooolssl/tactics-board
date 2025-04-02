@@ -24,7 +24,7 @@ const AppConfigs = {
       thumbnailWidth: 1280,
       ballHref: process.env.PUBLIC_URL + '/elements/handball_ball.svg',
       fieldUrl: process.env.PUBLIC_URL + '/elements/handball_field.svg',
-      backgroundImg: process.env.PUBLIC_URL + '/img/handball_field.png',
+      backgroundImg: process.env.PUBLIC_URL + '/img/wood_floor.jpg',
       goals: true
     },
     rugby: {
@@ -43,7 +43,7 @@ const AppConfigs = {
       thumbnailWidth: 1280,
       ballHref: process.env.PUBLIC_URL + '/elements/rugby_ball.svg',
       fieldUrl: process.env.PUBLIC_URL + '/elements/rugby_field.svg',
-      backgroundImg: process.env.PUBLIC_URL + '/img/handball_field.png',
+      backgroundImg: process.env.PUBLIC_URL + '/img/grass_floor.jpg',
       goals: false
     },
     hockey: {
@@ -63,7 +63,7 @@ const AppConfigs = {
       thumbnailWidth: 1880,
       ballHref: process.env.PUBLIC_URL + '/elements/hockey_ball.svg',
       fieldUrl: process.env.PUBLIC_URL + '/elements/hockey_field.svg',
-      backgroundImg: process.env.PUBLIC_URL + '/img/handball_field.png',
+      backgroundImg: process.env.PUBLIC_URL + '/img/grass_floor.jpg',
       goals: true
     },
   };

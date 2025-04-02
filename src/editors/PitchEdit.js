@@ -563,9 +563,14 @@ class PitchEdit extends Component {
     const pitchPos = this.props.pitch.pitchPos();
     const pitchTransform = `translate(${pitchPos.left} ${pitchPos.top})`;
 
+	const pitchStyle = {
+	  backgroundImage: `url(${this.props.appConfig.backgroundImg || (process.env.PUBLIC_URL + '/img/wood_floor.jpg')})`
+	};
+	
+
     return (
       <React.Fragment>
-        <div ref={this._editRef} className={pitchClasses}>
+        <div ref={this._editRef} className={pitchClasses} style={pitchStyle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox={viewBox}
