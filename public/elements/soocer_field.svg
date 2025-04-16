@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   style="fill:none"
+   id="svg30"
+   version="1.1"
+   viewBox="0 0 700 437.5"
+   height="437.5"
+   width="700">
+  <defs
+     id="defs34" />
+  <rect
+     style="fill:#109e68;stroke-width:0.99446285"
+     y="0"
+     id="rect2"
+     height="437.49997"
+     width="699.99121"
+     x="0.0043814681" />
+  <ellipse
+     style="fill:#109e68;stroke-width:0.99446285"
+     id="ellipse4"
+     transform="rotate(-90)"
+     ry="50.692429"
+     rx="52.316303"
+     cy="72.478729"
+     cx="-218.84886" />
+  <path
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="path6"
+     d="m 72.478719,167.53155 c 27.428389,0 49.702341,22.95375 49.702341,51.31735 0,28.36255 -22.273952,51.31735 -49.702341,51.31735 -27.428764,0 -49.702348,-22.9548 -49.702348,-51.31735 0,-28.3636 22.273584,-51.31735 49.702348,-51.31735 z" />
+  <rect
+     style="fill:#109e68;stroke-width:0.99446285"
+     x="-328.62436"
+     id="rect8"
+     transform="rotate(-90)"
+     height="106.92937"
+     width="219.74884"
+     y="0.0043814681" />
+  <rect
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="rect10"
+     transform="rotate(-90)"
+     height="104.94915"
+     width="217.75113"
+     y="0.99446809"
+     x="-327.62558" />
+  <rect
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="rect12"
+     transform="rotate(-90)"
+     height="42.375706"
+     width="101.03752"
+     y="0.99446285"
+     x="-269.3681" />
+  <ellipse
+     style="fill:#109e68;stroke-width:0.99446285"
+     id="ellipse14"
+     transform="rotate(90)"
+     ry="50.692429"
+     rx="52.316303"
+     cy="-629.5014"
+     cx="220.84956" />
+  <path
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="path16"
+     d="m 629.50143,272.16795 c -27.42844,0 -49.70236,-22.95475 -49.70236,-51.31835 0,-28.3626 22.27392,-51.31735 49.70236,-51.31735 27.42835,0 49.70233,22.95475 49.70233,51.31735 0,28.3636 -22.27398,51.31835 -49.70233,51.31835 z" />
+  <rect
+     style="fill:#109e68;stroke-width:0.99446285"
+     id="rect18"
+     transform="rotate(90)"
+     height="105.34522"
+     width="219.64899"
+     y="-699.99561"
+     x="111.02412" />
+  <rect
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="rect20"
+     transform="rotate(90)"
+     height="103.36501"
+     width="217.65128"
+     y="-699.00555"
+     x="112.02299" />
+  <rect
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="rect22"
+     transform="rotate(90)"
+     height="42.375706"
+     width="101.03752"
+     y="-699.00555"
+     x="170.33032" />
+  <ellipse
+     ry="66.923515"
+     rx="66.3358"
+     style="fill:#109e68;stroke-width:0.99446285"
+     id="circle24"
+     cy="218.75002"
+     cx="350.495" />
+  <ellipse
+     ry="65.92466"
+     rx="65.345711"
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="circle26"
+     cy="218.75002"
+     cx="350.495" />
+  <line
+     style="stroke:#ffffff;stroke-width:1.9889257;stroke-opacity:0.2"
+     id="line28"
+     y2="437.5"
+     x2="351.48511"
+     y1="0"
+     x1="351.48511" />
+</svg>

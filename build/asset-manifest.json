@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tactics-board/build/static/css/main.d2e25c33.css",
-    "main.js": "/tactics-board/build/static/js/main.43460ed7.js",
+    "main.js": "/tactics-board/build/static/js/main.c1f0ade8.js",
     "static/js/787.5a724f93.chunk.js": "/tactics-board/build/static/js/787.5a724f93.chunk.js",
     "static/media/wood_floor.jpg": "/tactics-board/build/static/media/wood_floor.89dc586a9bfe2463b6fd.jpg",
     "index.html": "/tactics-board/build/index.html",
     "main.d2e25c33.css.map": "/tactics-board/build/static/css/main.d2e25c33.css.map",
-    "main.43460ed7.js.map": "/tactics-board/build/static/js/main.43460ed7.js.map",
+    "main.c1f0ade8.js.map": "/tactics-board/build/static/js/main.c1f0ade8.js.map",
     "787.5a724f93.chunk.js.map": "/tactics-board/build/static/js/787.5a724f93.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2e25c33.css",
-    "static/js/main.43460ed7.js"
+    "static/js/main.c1f0ade8.js"
   ]
 }

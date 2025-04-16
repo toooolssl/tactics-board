@@ -27,6 +27,25 @@ const AppConfigs = {
       backgroundImg: process.env.PUBLIC_URL + '/img/wood_floor.jpg',
       goals: true
     },
+    futbol: {
+      useFirebase: false,
+      siteHomeURL: '/',
+      siteLogoURL: process.env.PUBLIC_URL + '/img/logo-toools.png',
+      pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-completo.png',
+      signInURL: '/Account/LoginRegister',
+      signOutURL: '/Account/LogOff',
+      getUserURL: '/Account/GetUser',
+      saveURL: '/TacticsBoard/SaveTactic',
+      loadURL: '/TacticsBoard/TacticsLoad',
+      loadSharedURL: '/TacticsBoard/TacticsLoadShared',
+      listURL: '/TacticsBoard/GetTacticsList',
+      deleteURL: '/TacticsBoard/DeleteTactic',
+      thumbnailWidth: 1280,
+      ballHref: process.env.PUBLIC_URL + '/elements/ball_futball.svg',
+      fieldUrl: process.env.PUBLIC_URL + '/elements/footbal_field.svg',
+      backgroundImg: process.env.PUBLIC_URL + '/img/grass_floor.jpg',
+      goals: true
+    },
     rugby: {
       useFirebase: false,
       siteHomeURL: '/',
