@@ -85,6 +85,26 @@ const AppConfigs = {
       backgroundImg: process.env.PUBLIC_URL + '/img/grass_floor.jpg',
       goals: true
     },
+    tenismesa: {
+      useFirebase: false,
+      siteHomeURL: '/',
+      siteLogoURL: process.env.PUBLIC_URL + '/img/logo-toools.png',
+    //   pitchCenterADURL: process.env.PUBLIC_URL + '/img/isquad-blanco-completo.png',
+      pitchCenterADURL: null,
+      signInURL: '/Account/LoginRegister',
+      signOutURL: '/Account/LogOff',
+      getUserURL: '/Account/GetUser',
+      saveURL: '/TacticsBoard/SaveTactic',
+      loadURL: '/TacticsBoard/TacticsLoad',
+      loadSharedURL: '/TacticsBoard/TacticsLoadShared',
+      listURL: '/TacticsBoard/GetTacticsList',
+      deleteURL: '/TacticsBoard/DeleteTactic',
+      thumbnailWidth: 1880,
+      ballHref: process.env.PUBLIC_URL + '/elements/tenismesa_ball.svg',
+      fieldUrl: process.env.PUBLIC_URL + '/elements/tenismesa_field.svg',
+      backgroundImg: process.env.PUBLIC_URL + '/img/red_floor.jpg',
+      goals: false
+    },
   };
   
   export default AppConfigs;
